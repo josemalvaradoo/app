@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Framework7</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+	
+	<div id="app">
+			
+		<section class="panel panel-right panel-cover">
+			
+			<div class="block">
+				<h3 class="block-title">Menu</h3>
+				
+					<div class="list links-list"> 
+					  <ul>
+						 <li>
+						  <a href="/about/" class="panel-close">About</a>
+						</li> 
+						<li>
+						  <a href="/browse/" class="panel-close">Categories</a>
+						</li>
+						<li>
+						  <a href="/magazines/" class="panel-close">Magazines</a>
+						</li>
+						<li>
+						  <a href="/newspapers/" class="panel-close">Newspapers</a>
+						</li>
+						<li>
+						  <a href="/settings/" class="panel-close">Settings</a>
+						</li>
+					
+					  </ul>
+					</div>
+			
+			
+			</div>
+		
+		</section>
+		
+		<div class="view view-main view-init">
+        
+			<section data-name="home" class="page">
+
+			  <!-- Top Navbar -->
+			<nav class="navbar">
+			  <div class="navbar-bg"></div>
+			  <div class="navbar-inner">
+				<div class="left">
+				  <a href="#" class="link back">
+					<i class="material-icons">navigate_before</i>
+				  </a>
+				</div>
+				<div class="title"></div>
+				<div class="right">
+				  <a href="#" class="link panel-open" data-panel="right">
+					<i class="material-icons">menu</i>
+				  </a>
+				</div>
+			  </div>
+			</nav>
+				
+			<section class="page-content">
+			
+			</section> <!--/page-content -->
+				       
+        
+
+			</section> <!--/page -->
+			
+			<nav class="toolbar tabbar tabbar-labels toolbar-bottom">
+          <div class="toolbar-inner">
+            <a href="/about/" class="tab-link tab-link">
+            <i class="material-icons">description</i>
+            <span class="tabbar-label">About</span>
+            </a>
+			  
+            <a href="/browse/" class="tab-link">
+            <i class="material-icons">content_copy</i>
+            <span class="tabbar-label">Browse</span>
+            </a>
+			  
+			<a href="/downloads/" class="tab-link">
+            <i class="material-icons">download_for_offline</i>
+            <span class="tabbar-label">Downloaded</span>
+            </a>
+			  
+			<a href="/profile/" class="tab-link">
+            <i class="material-icons">account_circle</i>
+            <span class="tabbar-label">My Profile</span>
+            </a>
+			  
+			<a href="/settings/" class="tab-link">
+            <i class="material-icons">more_horiz</i>
+            <span class="tabbar-label">Settings</span>
+            </a>
+			  
+          </div>
+        </nav>
+		</div>
+		<!--/view -->
+        <section class="login-screen modal-in" id="login-screen" >
+  <!-- Default view-page layout -->
+  <div class="view">
+    <div class="page login-screen-page">
+      <!-- page-content has additional login-screen content -->
+      <div class="page-content login-screen-content">
+		  <div class="right">
+				<a href="#" class="login-screen-close" data-panel="right">
+					<i class="material-icons">close</i>
+				</a>
+			</div>
+        <div class="login-screen-title">Sign In </div>
+		  <div class="block-footer">Sign in or create an account to save stories and interests to your profile.</div>
+        <!-- Login form -->
+        <form>
+          
+          <div class="list block">
+			  
+            <ul>
+              <li>
+                <a href="#" class="button button-fill"> <img src="img/apple-logo-transparent.png" width="2400" height="2398" alt="" align="left"/> Continue with Apple</a>
+				  <a href="#" class="button button-fill"> <img src="img/59439.png" width="512" height="512" alt="" align="left"/>Continue with Facebook</a>
+				  <a href="#" class="button button-fill "> <img src="img/NicePng_google-logo-white-png_134988.png" width="443" height="451" alt="" align="left"/>Continue with Google</a>
+              </li>
+            </ul>
+				  
+            <div class="block-footer">Or</div>
+          </div>
+			<div class="list block">
+            <ul>
+              <li>
+                <a href="#tab4" class="button button-circle">
+				<i class="material-icons">email</i>
+				</a>
+				  <div class="block-footer">E-mail</div>
+				  
+              </li>
+            </ul>
+            <div class="block-footer">By signing up, I accept Terms of Service and the Privacy Policy</div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+        
+
+	</div><!--/app -->
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+	
+	
+	
+	
+</body>
+</html>
